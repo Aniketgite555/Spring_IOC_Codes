@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+			"https://www.springframework.org/dtd/spring-beans-2.0.dtd">
+<beans>
+	<bean id="id" class="com.Example">
+		<property name="id" value="1"></property>
+		<property name="movies">
+			<list>
+				<value>Be Confident</value>
+				<value>Can You ?</value>
+			</list>
+		</property>
+		<property name="electronics">
+			<set>
+				<value>Apple Watch</value>
+				<value>Iphone 18Pro max</value>
+				<value>Ipad pro</value>
+			</set>
+		</property>
+
+		<property name="numbers">
+			<map>
+				<entry key="1" value="one"></entry>
+				<entry key="2" value="two"></entry>
+				<entry key="3" value="three"></entry>
+				<entry key="4" value="four"></entry>
+				<entry key="5" value="five"></entry>
+			</map>
+		</property>
+	</bean>
+</beans>

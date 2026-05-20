@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+			"https://www.springframework.org/dtd/spring-beans-2.0.dtd">
+
+			<beans>
+			<bean id="a" class="byType.A" autowire="byType">
+			<property name="id" value="1"></property>
+			<property name="name" value="Aniket"></property>
+			</bean>
+			
+			<bean id="b" class="byType.B">
+			<property name="id" value="2"></property>
+			<property name="name" value="chill"></property>
+			</bean>
+			
+			</beans>
