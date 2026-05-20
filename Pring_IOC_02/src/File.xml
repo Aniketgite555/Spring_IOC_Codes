@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+			"https://www.springframework.org/dtd/spring-beans-2.0.dtd">
+
+			<beans>
+			<bean id="c" class="com.pojo.Car" scope="prototype">
+			<property name="carname" value="Mahindra Thar"></property>
+			<property name="carmodel" value="Top"></property>
+			<property name="engine" ref="e"></property>
+			</bean>
+			
+			<bean id="e" class="com.pojo.Engine" scope="prototype">
+			<property name="engid" value="12"></property>
+			<property name="engtype" value="Diesel"></property>
+			</bean>
+			
+			</beans>
